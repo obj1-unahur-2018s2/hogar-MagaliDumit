@@ -15,13 +15,13 @@ Por su parte, una familia está compuesta por varias **personas**.
 
 De cada habitacion interesa saber el _nivel de confort_ que le aporta a una persona, 
 
-Todas las habitaciones aportan, como base, 10 unidades de confort a cualquier persona.   
+Todas las habitaciones aportan, como base, 10 unidades de confort a cualquier persona. 
 Además existen reglas por cada tipo de habitación que podrían adicionar puntos
 
 - **Uso general**: no aporta nada adicional
 
 - **Baño**: Aporta 2 unidades de confort extra si se trata de un niño de 4 o menos años. 4 unidades extra si la persona 
-  tiene 5 o más años.   
+  tiene 5 o más años. 
 
 - **Dormitorio**:  Si la persona no es uno de los dueños del dormitorio no aporta nada extra de confort. Si lo es, aporta como extra 
   10 dividido la cantidad de dueños. (En caso de una habitacion de dos dueños, sumaría 5 a cada duenio) 
@@ -30,7 +30,8 @@ Además existen reglas por cada tipo de habitación que podrían adicionar punto
   que se calcula como un porcentaje de la cantidad de metros cuadrados de esa cocina. 
   Ese porcentaje es un valor que se configura al inicio de la ejecución y es el mismo para todas las cocinas. 
   Ese valor puede cambiar en cualquier momento y las cocinas ya creadas
-  deben poder usar el valor nuevo. Un buen valor por defecto es 10%.  
+  deben poder usar el valor nuevo. Un buen valor por 
+defecto es 10%. 
   _Aclaración_: cualquier persona puede tener habilidades de cocina o no. 
   Una persona que al principio no tiene habilidades de cocina podría aprender y adquirirlas.
 
